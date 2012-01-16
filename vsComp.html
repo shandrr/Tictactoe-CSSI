@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<head>
+<title>Tic.Tac.Toe</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="/static/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="static/helper.js"></script>
+<script type="text/javascript" src="static/prototype.js"></script>
+<link href="/static/slider.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="main">
+  <div class="header">
+    <div class="header_resize">
+      <div class="logo">
+        <h1><a href="app.html">Tic<span>Tac</span>Toe</a><br/>
+        </h1>
+        <div id="menu">
+	     <div id="m-top">
+		     <ul>
+			    	    <li><a href="/">Home</a></li>
+				    <li><a href="/original">Original</a></li>
+                                    <li class="active"><a href="/vscomp">Vs. Computer</a><li>
+				    <li><a href="/crazy">Cr@Zy</a></li>
+				    <li><a href="/info">Game Info</a></li>
+				    <li><a href="/developers">Developers</a></li>
+		     </ul>
+	     </div>
+	     <div id="m-slider">
+                 <div id="slider"></div>
+	     </div>
+      </div>
+				<div class="game">
+					<table><tr><td>
+						<form action="/vscomp" method="post">
+							<table border="">
+								<tr>
+									<td id ="c1r1">
+										<button value="c1r1" name="block" style={{button_color.0.0}}>
+											<img src="/static/{{c1r1}}">
+										</button>
+									</td>
+									<td id ="c2r1">
+										<button value="c2r1" name="block" style={{button_color.0.1}}>
+											<img src="/static/{{c2r1}}">
+										</button>
+									</td>
+									<td id ="c3r1">
+										<button value="c3r1" name="block"  style={{button_color.0.2}}>
+											<img src="/static/{{c3r1}}">
+										</button>
+									</td>
+								</tr>
+								<tr>
+									<td id ="c1r2">
+										<button value="c1r2" name="block"  style={{button_color.1.0}}>
+											<img src="/static/{{c1r2}}">
+										</button>
+									</td>
+									<td id ="c2r2">
+										<button value="c2r2" name="block"  style={{button_color.1.1}}>
+											<img src="/static/{{c2r2}}">
+										</button>
+									</td>
+									<td id ="c3r2">
+										<button value="c3r2" name="block"  style={{button_color.1.2}}>
+											<img src="/static/{{c3r2}}">
+										</button>
+									</td>
+								</tr>
+								<tr>
+									<td id ="c1r3">
+										<button value="c1r3" name="block" style={{button_color.2.0}}>
+											<img src="/static/{{c1r3}}">
+										</button>
+									</td>
+									<td id ="c2r3">
+										<button value="c2r3" name="block" style={{button_color.2.1}}>
+											<img src="/static/{{c2r3}}">
+										</button>
+									</td>
+									<td id ="c3r3">
+										<button value="c3r3" name="block"  style={{button_color.2.2}}>
+											<img src="/static/{{c3r3}}">
+										</button>
+									</td>
+								</tr>
+							</table>
+							<input type="hidden" name="StringMatrix" value={{StringMatrix}}>
+							<input type="hidden" name="WinMessage" value={{Winner}}>
+						</form>
+						<form>
+							<input type="submit" name="Reset" method ="reset" value="Reset">
+						</form>
+					</div>
+				</td>
+				<td class ="OptionsandScores">
+					<div class="Options">
+						<table align="right">
+							<tr>
+
+							</tr>
+						</table>
+					</div>
+					<div class="Scores">
+						<table align="right">
+							<tr>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</div>
+</div>
+</body>
+</html>

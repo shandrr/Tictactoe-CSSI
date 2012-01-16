@@ -1,0 +1,192 @@
+/*
+
+STYLE SHEET for all pages
+
+*/
+
+@charset "utf-8";
+body { margin:0; padding:0; width:100%; color:#eee; font:normal 12px/1.8em "Liberation sans", Arial, Helvetica, sans-serif;}
+html, .main { padding:0; margin:0;}
+
+.main { background:url(images/header_bg.gif) repeat-x center top;}
+.clr { clear:both; padding:0; margin:0; width:100%; font-size:0px; line-height:0px;}
+.logo { padding:0; width:auto;}
+h1 	{ margin:0; padding:0px 0 10px; color:##6B8E23; font:bold 48px/1.2em "Liberation sans", Arial, Helvetica, sans-serif;
+	letter-spacing:-2px; text-transform:uppercase; text-align:center;
+	}
+h1 a, h1 a:hover { color:##6B8E23; text-decoration:none;}
+h1 span { text-transform:none; font-weight:normal;}
+h1 small { display:block; font:normal 12px/1.2em "Liberation sans", Arial, Helvetica, sans-serif; letter-spacing:normal; color:##6B8E23; text-transform:none;}
+h2 { font:normal 24px/1.5em "Liberation sans", Arial, Helvetica, sans-serif; padding:8px 0; margin:8px 0; color:#6d6d6d;}
+p { margin:8px 0; padding:0 0 8px 0; font:normal 12px/1.8em "Liberation sans", Arial, Helvetica, sans-serif;}
+a { color:#495957; text-decoration:underline;}
+
+
+/*DEVELOPERS PAGE -start*/
+table.teaminfo {
+		width:800px;
+		margin:0px auto;
+}
+table .teaminfo.devtext{
+		padding-left:30px;
+}
+
+.teaminfo td{
+		text-align:left;
+		padding: 20px;
+		padding-left:0px;
+}
+
+.teaminfo.lphotos td{
+		width: 45%;
+}
+
+
+
+
+/*------ TABLE ------*/
+.table {
+color: black;
+}
+#Blank {
+
+}
+/* HEADER -start*/
+.header, .content, .menu_nav, .fbg, .footer, form, ol, ol li, ul, .content .mainbar, .content .sidebar { margin:0; padding:0;}
+
+.header {padding-bottom:50px; }
+.header_resize { margin:0 auto; padding:0; width:960px;}
+img.hbg_img { padding:9px; border:1px solid #d7d7d7; background-color:#fff;}
+/* HEADER -end*/
+
+
+
+
+/* MENU -start */
+.menu_nav { margin:0 auto 16px; padding:0 0 0 0px; height:39px; border-top:1px solid #c9c9c9; border-bottom:0px solid #c9c9c9; border-left: 0px solid #c9c9c9; text-align: left;}
+
+.menu_nav ul { list-style:none; padding:0; height:39px; width: 120px; float:none;}
+.menu_nav ul li { margin:0; padding:0 0 0 0; float:none;}
+.menu_nav ul li a { display:block; margin:0; padding:9px 24px; color:#4f4f4f; text-decoration:none; font-size:13px; ; border-left:1px solid transparent; border-right:0px solid transparent;}
+.menu_nav ul li.active a { color:#4f4f4f; background-color: white; border-left:1px solid #c9c9c9; border-right:0px solid #c9c9c9;color:#959595} 
+.menu_nav ul li a:hover { color:#4f4f4f; background-color: white; border-left:1px solid #c9c9c9; border-right:0px solid #c9c9c9;font-weight:bold;padding-left:35px;}
+
+
+.about_nav{visibility:hidden;opacity: 0;}
+#stuff:hover .about_nav{visibility:visible;-webkit-transition: opacity 1s linear; opacity:1;}
+/*.about_nav li{visibility:visible}*/
+/* about menu */
+.df_nav { margin:0 auto 0px; padding:0 0 0 400px; height:39px; border-top:0px solid #c9c9c9; border-bottom:1px solid #d9d9d9;}
+.about_nav ul { list-style:none; padding:0; height:39px; float:left;}
+.about_nav ul li { margin:0; padding:0 0 0 0px; float:left;}
+.about_nav ul li a { display:block; margin:0; padding:9px 15px; color:#4f4f4f; text-decoration:none; font-size:13px; border-left:0px solid transparent; border-right:0px solid transparent;}
+.about_nav ul li.active a .about_nav ul li a:hover { color:#4f4f4f; background-color:#fff; border-left:1px solid #c9c9c9; border-right:0px solid #c9c9c9;}
+
+
+/*tabs*/
+ul.tabs{
+	margin:0 auto;
+	padding:0;
+	list-style:none;
+	height:32px;
+	border-bottom:1px solid #999;
+	border-left:1px solid #999;
+	width:80%;
+}
+ul.tabs li{
+	float:left;
+	margin:0;
+	padding:0 10px;
+	height:31px;
+	line-height:31px;
+	border:1px solid #999;
+	border-left:none;
+	overflow:hidden;
+	position:relative;
+	background:#CFD784;
+	font-size:1.2em;
+        color:black
+}
+ul.tabs li:hover{
+	background:#6B8E23;
+        cursor:pointer;
+}
+html ul.tabs li.active, html ul.tabs li.active a:hover{
+	background:#fff;
+	border-bottom:1px solid #fff;
+        font-weight:bold;
+}
+.tab_container{
+	border:1px solid #999;
+	border-top:none;
+	overflow:hidden;
+	clear:both;
+	float:left;
+	height:auto;
+        width:100%;
+	background:#fff;
+	margin:0;
+	padding:0;
+}
+.tab_content{
+	height:auto;
+	margin:0;
+	padding:0;
+        color:#6B8E23;
+}
+/* MENU -end */
+
+/* GAME -start */
+.game { 
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+}
+.outline_nav ul { list-style:none; padding:0; height:39px; float:left;}
+.outline_nav ul li { margin:0; padding:0 0 0 8px; float:left;}
+.outline_nav ul li a { display:block; margin:0; padding:9px 24px; color:#4f4f4f; text-decoration:none; font-size:13px; text-transform:uppercase; border-left:0px solid transparent; border-right:0px solid transparent;}
+
+#MatrixBoard table{
+	padding-top:0px; 
+	padding-right:0px; 
+	padding-bottom:0px; 
+	padding-left:0px;
+	border:2px solid;
+	border-color:#999;	
+}
+
+#MatrixBoard td.gametable {
+	padding: 0 0 0 0;	
+	border:3px solid #999;
+	border-spacing:0px;
+	
+}
+#MatrixBoard td.gametable table{
+	padding: 0 0 0 0;	
+	border:2px;
+	border-spacing:0px;
+}
+#MatrixBoard td.gametable tr{
+	border-spacing: 0px;
+}
+#MatrixBoard td.gametable td{
+	border: 0px; 
+	border-spacing: 0px;
+	padding: 0 0 0 0;
+}
+
+#MatrixBoard td.gametable button{
+	padding:0 0 0 0;
+	border: 0 0 0 0;
+}
+
+.OptionsandScores div{
+	padding-left:60px;;
+}
+
+/* GAME -end */
+
+
+
+
+
