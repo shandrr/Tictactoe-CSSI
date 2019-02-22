@@ -1,8 +1,10 @@
 image: 
 - Visual Studio 2017
-
+install:
+- pip install webapp2
+- pip install jinja2
 
 test_script:
 - game_mech.py
-
+- main.py
 build: off
