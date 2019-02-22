@@ -3,7 +3,7 @@ image:
 install:
 - pip install webapp2
 - pip install jinja2
-- pip install -q Django==$1.2
+- pip install -q Django==$1.2.4
 
 test_script:
 - python game_mech.py
