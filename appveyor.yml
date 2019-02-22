@@ -7,5 +7,6 @@ install:
 - pip install google-api-python-client
 test_script:
 - python game_mech.py
+- python google.__path_.py
 - python TicTacToe.py
 build: off
