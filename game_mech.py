@@ -121,7 +121,7 @@ def randomMove(m):
 		randomMove(m)
 	else:
 		m[row][col]=2
-        return m
+	return m
 	
 
 
