@@ -112,7 +112,7 @@ def compMove(m):
 				count+=1
 	if (count==0) and(0 in m[0] or 0 in m[1] or 0 in m[2]):
 		randomMove(m)
-        return m
+      #  return m
 
 def randomMove(m):
 	row=random.randint(0,2)
