@@ -5,6 +5,6 @@ install:
 - pip install jinja2
 
 test_script:
-- game_mech.py
-- main.py
+- python game_mech.py
+- pytnon main.py
 build: off
